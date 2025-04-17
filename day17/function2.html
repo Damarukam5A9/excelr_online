@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial- scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script> 
+            function eligibility(age){
+                if(age>=18){
+                    return "you are eligible to vote";
+                }else{
+                    return "you are not eligible to vote";
+                }
+            }
+
+            let age=prompt("enter your age:");//promt is used to take input from user 
+            console.log(typeof(age));//string
+            let userage=parseInt(age);//parsing -converting one data type to anoter
+            console.log(typeof(userage));//number
+
+            let result=eligibility(userage);
+            console.log(result);
+
+            alert(result);//alert is used to show output to user
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function student(firstName,lastName,age){
+            this.fName = firstName;
+            this.lName = lastName;
+            this.year = yearOfBirth;
+
+            student.prototype.getFullName = function(){
+                return this.fname + " " + this.lname;
+            }
+        }
+        let s1 = new student("john","doe",1990);
+        let s2 = new student("john","doe",1991);
+        let s3 = new student("john","doe",1992);
+        console.log(s1.getFullName());
+        console.log(s2.getFullName());
+        console.log(s3.getFullName());
+    </script>
+    
+</body>
+</html>

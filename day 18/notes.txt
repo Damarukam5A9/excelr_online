@@ -1,0 +1,10 @@
+what are callback functions
+          ---it is a function that is passed as an argument to another function
+
+callback hell(pyramid of doom)
+---------------------------------
+it is a situation where we have multiple callbacks inside a callback(nested callback)
+hard to read
+hard to maintain/modify
+hard to debug
+this is usually happens when we have to perform multiple asych
