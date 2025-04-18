@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const base={
+            start(){
+                console.log('base start');
+            }
+        }
+
+        function Animal(name){
+            this.name=name;
+        }
+        Animal.prototype=base;
+
+        let a1=new Animal('jullie');
+        console.log(a1.name);
+        console.log(a1);
+        a1.start();
+
+
+
+        const petAnimal=Object.create(Animal.prototype);
+        petAnimal.start=function(){
+            console.log('petAnimal play');
+        }
+        console.log(petAnimal);
+        console.log(petAnimal.play());
+    </script>
+    
+</body>
+</html>

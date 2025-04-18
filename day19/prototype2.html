@@ -7,15 +7,17 @@
 </head>
 <body>
     <script>
-        function student(firstName,lastName,age){
+        function student(firstName,lastName,yearOfBirth){
             this.fName = firstName;
             this.lName = lastName;
             this.year = yearOfBirth;
+        }
+
 
             student.prototype.getFullName = function(){
-                return this.fname + " " + this.lname;
-            }
-        }
+                return this.fName + " " + this.lName;
+            };
+
         let s1 = new student("john","doe",1990);
         let s2 = new student("john","doe",1991);
         let s3 = new student("john","doe",1992);

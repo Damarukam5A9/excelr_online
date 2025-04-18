@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const Animal ={
+            species:'Animal',
+            eat:function(){
+                console.log('Animal eats');
+            },
+        };
+        console.log(Animal);
+
+        const dog=Object.create(Animal);
+        dog.bark=function(){
+            console.log('dog barks');
+        };
+        console.log(dog);
+
+        const cat =Object.create(Animal);
+        cat.color="white";
+        cat.meow=function(){
+            console.log('cat meow');
+        };
+        console.log(cat);
+        </script>
+    
+</body>
+</html>
