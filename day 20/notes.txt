@@ -1,0 +1,23 @@
+json rules :
+   -json objects must be in curly brackets({})
+   -json object contain collection of key and value pairs
+   -key must be in double quotes
+   -value can be in double quotes or single quotes or single quotes(based on data type)
+   -starting must be in double quotes
+   -key name must be unique
+   -----------------------------------------------------------------------------------------------
+
+   json structure :
+        1.Objects(like dictionaries/maps)
+        2.arrays(like lists)
+        3.nested objects
+        --------------------------------------------------------------------
+json arrays:
+    -it is a coolective of valiues
+    -it is a list of value
+
+    ex:{1,2,3,4,5,6,7,8,9,10}
+       [abc,xyz,pqr,mno,lmn,]
+       [
+
+       ]
