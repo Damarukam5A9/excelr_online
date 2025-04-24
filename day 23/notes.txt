@@ -26,4 +26,63 @@ use cases:
 ---------------------------------------------------------
 purpose        interact with the html document       interact with the browser
 
-main object    document                              document
+main object    document                              window
+---------------------------------------------------------------------------------------
+
+DOM Manipulation:
+++++++++++++++++++
+             1.Element accessing
+             2.Element creation
+             3.Eleent removal
+             4.Element modification/Manipulation
+             5.Attribute Manipulation
+             6.Css Manipulation
+             7.Event manipulation/handling
+
+Element accessing:
+             -accessing element by DOM methods
+      1.getElementById()-- accessing element by id(unique)-->returns single element
+      2.get ElementByClassName()--accessing element by class name-->returns multiple elements
+      3.getElementByTagName()-- accessing element by tag name->return multiple elements
+      4.querySelector()-accesing element by css selector(first match)-->returns single
+      5.querySelectorAll()-accessing element by css selector(all matches)-->return multiple
+
+-----------------------------------------------------------------------------------------------------
+
+2.Element creation:
+           -->creating element by tag name 
+           -->returns single element
+           -->it creates content in memory
+           -->to appear in documenyt we need to use  
+                     1.appendchild()
+                     2.insertbefore()
+                     3.replacechild()
+                     4.prepend()
+
+3.Element manipulation:
+            -modifying element by dom methods
+                  1.appendchild()
+                  2.insertbefore()
+                  3.replacechild()
+                  4.prepend()
+                  5.removechild()
+                  6.clonenode()
+
+
+                     appendchild()                insertbefore()               prepend()
+-------------------------------------------------------------------------------------------------
+parent tag                 yes                         yes                            yes
+sibling tag                no                          yes                            no
+where it inserts           at the end                  at the position                at the beginning
+---------------------------------------------------------------------------------------------------------------
+Attribute Manipulation:
+               - modifying attribute by DOM methods
+          1.set Attribute() -- adding attribute
+          2.removeAttribute() -- removing attribute
+          3.getAttribute() -- accessing attribute
+          4.hasAttribute() -- checking attribute presence
+
+----------------------------------------------------------------------------------------------------------------
+
+
+                     
