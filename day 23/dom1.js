@@ -22,11 +22,11 @@ for(let e of heading3){
 let p=document.querySelector('.p1');
 p.style.color='red';
 //accessing element with querySelectorAll()
-let pLists=document.querySelectorAll('.p1');
-console.log(pLists);
+let pList=document.queryAllSelector('.p1');
+console.log(pList);
 
-for(let e of pLists){
-    e.style.fontsize='40px';
+for(let e of pList){
+    e.style.color='greeen';
 }
 
 // creation of element with createElement()
