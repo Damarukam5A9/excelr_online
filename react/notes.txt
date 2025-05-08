@@ -1,0 +1,93 @@
+Day 27:
+----------------------------------------------------------------------------
+React:
+     - React is a javascript library for building user interfaces
+     - it is released by facebook in 2013.(Jordan walke)
+     - React is a declarative, efficient, and flexible javascript 
+          library for building user interfaces. 
+     -it is used to develop single-page applications.
+     -React is a component-based front-end library.
+     -React makes it painless to create interactive UIs.
+     -React is used to develop a web applications/mobile
+      applications/desktop applications
+
+who uses react:
+      -facebook
+      -netflix
+      -Airbnb
+      -instagram
+      -snaopchat
+      -youtube
+      -spotify
+      -tinder
+
+why use react:
+          - High performance with virtual DOM
+          -Single page applications
+          -Easy to learn and implement
+          -it is free and open source
+          -huge ecosystem of libraries(react router, Redux, etc.)
+          -Easy to integrate with other existing projects
+          -it is fast and efficient
+---------------------------------------------------------------------------------------------
+how to create react project:
+ 
+steps:
+     1. create a folder
+     2. open terminal for the folder(cmd)
+     3. npx create-react-app my-app/project-name 
+npx: node package execution , it is a command line tool that 
+  allows you to execute npm packages directly from the command line.
+     4. cd project_name
+     5. npm start
+
+
+---------------------or-----------------------------
+steps:
+   1. create a folder
+   2. open a terminal for the folder(cmd)
+   3. npm create vite@latest
+                  project_name: name of the project
+                  framework : react
+                  variant : javascript
+   4. cd project_name
+   5. npm install (installing dependencies/node package)
+      (npm-node package manager)
+   6. npm run dev
+-----------------------------------------------------------------------
+jsx - javascript XML (extension of js)
+       (xml- extensible markup language)
+    -we can write html in js
+----------------------------------------------------------------------------------
+
+components:
+     ex: header component , footer component , sidebar component etc...
+
+----------------------------------------------------------------------------------
+1. create jsx file
+2.declare the component(function)
+3.return the jsx code(encapsulate/wrap the jsx code)
+  -wrapping can be done
+              1. using div tag
+              2. using fragment tag <></>
+              3. using template string
+              4. using react.fragment <react.fragment></react.fragment>
+4.import the component in app.js
+5.use the component in remaining jsx file
+              (import in main.jsx file)
+
+----------------------------------------------------------------------------------
+component:
+   ex: header component , footer component , sidebar component etc..
+    - it is a function/class that returns jsx code
+    - it is a reusable component
+    - it is a file that contains jsx code(html in js file)
+    - we can create a component in two ways
+                    1. function component
+                    2. class component
+                    
+ 
+day 32
+-----------
+Link:
+     -
