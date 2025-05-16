@@ -1,0 +1,164 @@
+Day 27:
+----------------------------------------------------------------------------
+React:
+     - React is a javascript library for building user interfaces
+     - it is released by facebook in 2013.(Jordan walke)
+     - React is a declarative, efficient, and flexible javascript 
+          library for building user interfaces. 
+     -it is used to develop single-page applications.
+     -React is a component-based front-end library.
+     -React makes it painless to create interactive UIs.
+     -React is used to develop a web applications/mobile
+      applications/desktop applications
+
+who uses react:
+      -facebook
+      -netflix
+      -Airbnb
+      -instagram
+      -snaopchat
+      -youtube
+      -spotify
+      -tinder
+
+why use react:
+          - High performance with virtual DOM
+          -Single page applications
+          -Easy to learn and implement
+          -it is free and open source
+          -huge ecosystem of libraries(react router, Redux, etc.)
+          -Easy to integrate with other existing projects
+          -it is fast and efficient
+---------------------------------------------------------------------------------------------
+how to create react project:
+ 
+steps:
+     1. create a folder
+     2. open terminal for the folder(cmd)
+     3. npx create-react-app my-app/project-name 
+npx: node package execution , it is a command line tool that 
+  allows you to execute npm packages directly from the command line.
+     4. cd project_name
+     5. npm start
+
+
+---------------------or-----------------------------
+steps:
+   1. create a folder
+   2. open a terminal for the folder(cmd)
+   3. npm create vite@latest
+                  project_name: name of the project
+                  framework : react
+                  variant : javascript
+   4. cd project_name
+   5. npm install (installing dependencies/node package)
+      (npm-node package manager)
+   6. npm run dev
+-----------------------------------------------------------------------
+jsx - javascript XML (extension of js)
+       (xml- extensible markup language)
+    -we can write html in js
+----------------------------------------------------------------------------------
+
+components:
+     ex: header component , footer component , sidebar component etc...
+
+----------------------------------------------------------------------------------
+1. create jsx file
+2.declare the component(function)
+3.return the jsx code(encapsulate/wrap the jsx code)
+  -wrapping can be done
+              1. using div tag
+              2. using fragment tag <></>
+              3. using template string
+              4. using react.fragment <react.fragment></react.fragment>
+4.import the component in app.js
+5.use the component in remaining jsx file
+              (import in main.jsx file)
+
+----------------------------------------------------------------------------------
+component:
+   ex: header component , footer component , sidebar component etc..
+    - it is a function/class that returns jsx code
+    - it is a reusable component
+    - it is a file that contains jsx code(html in js file)
+    - we can create a component in two ways
+                    1. function component
+                    2. class component
+                    
+ 1. functional component:
+
+ syntax:
+
+ function component_name(){
+     return(
+          <>
+          //jsx code
+          </>
+     )
+ }
+
+ 2.class component:
+
+ syntax:
+
+ class component_name extends react.component{
+     render(){
+          return(
+               <>
+               //jsx code
+               </>
+          )
+     }
+ }
+ ------------------------------------------------------------------------------------
+                                function                        class                
+               ----------------------------------------------------------------------
+syntax:                          js function                   Es6 class syntax
+render()                         not required                  required
+state                            usestate  hook                   this.state
+props                            props                         this.props
+this key                         not required                  required
+readablity                       clean                         more boilerplate
+preffered                        modern standare               older standard(deprecated)
+------------------------------------------------------------------------------------
+state:
+    -state is an object that contains data that the component needs.
+    -it is used to store/update/manage data that the component needs
+      to render.
+    -we can modify the state in the component with the help of
+      setState() method. or this.setState() method.
+
+syntax: let [state/data, setState]=useState(initialState)
+
+ex:
+   1.let [count, setCount] = useState(0)
+   2.let [name , setName] = useState('')
+   3.let [user , setUser] = useState({})
+   4.let[fruits, setFruits] = useState([])
+   5.let[isTrue, setIsTrue] = useState(true)
+
+setState() method:
+     -it is used to update the state of the component.
+     -it is a function used to update
+
+useState() hook:
+            -it is a hook that returns an array of two elements.
+            -the first element is the state variable.
+            -the second element is the function that updates the state vaiable.
+            -it is used to manage the state of the component.
+
+hooks:
+     -it is a function that returns jsx code.
+     ex: useState(), useEffect(), useRef(), useContext()
+-----------------------------------------------------------------------------------------
+props:(properties)
+     -props is an object that contains data that the component needs.
+     -it is used to pass data from parent component to child component.
+     -we can access the props in the component with the help of props.
+     
+
+day 32
+----------------
+Link:
+     -
