@@ -1,3 +1,4 @@
+
 // accessing element with getElementbyId()
 
 let heading=document.getElementById('heading');
@@ -22,11 +23,11 @@ for(let e of heading3){
 let p=document.querySelector('.p1');
 p.style.color='red';
 //accessing element with querySelectorAll()
-let pList=document.queryAllSelector('.p1');
+let pList=document.querySelectorAll('.p1');
 console.log(pList);
 
 for(let e of pList){
-    e.style.color='greeen';
+    e.style.fontsize='40px';
 }
 
 // creation of element with createElement()

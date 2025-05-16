@@ -86,8 +86,90 @@ component:
                     1. function component
                     2. class component
                     
- 
+ 1. functional component:
+
+ syntax:
+
+ function component_name(){
+     return(
+          <>
+          //jsx code
+          </>
+     )
+ }
+
+ 2.class component:
+
+ syntax:
+
+ class component_name extends react.component{
+     render(){
+          return(
+               <>
+               //jsx code
+               </>
+          )
+     }
+ }
+ ------------------------------------------------------------------------------------
+                                function                        class                
+               ----------------------------------------------------------------------
+syntax:                          js function                   Es6 class syntax
+render()                         not required                  required
+state                            usestate  hook                   this.state
+props                            props                         this.props
+this key                         not required                  required
+readablity                       clean                         more boilerplate
+preffered                        modern standare               older standard(deprecated)
+------------------------------------------------------------------------------------
+state:
+    -state is an object that contains data that the component needs.
+    -it is used to store/update/manage data that the component needs
+      to render.
+    -we can modify the state in the component with the help of
+      setState() method. or this.setState() method.
+
+syntax: let [state/data, setState]=useState(initialState)
+
+ex:
+   1.let [count, setCount] = useState(0)
+   2.let [name , setName] = useState('')
+   3.let [user , setUser] = useState({})
+   4.let[fruits, setFruits] = useState([])
+   5.let[isTrue, setIsTrue] = useState(true)
+
+setState() method:
+     -it is used to update the state of the component.
+     -it is a function used to update
+
+useState() hook:
+            -it is a hook that returns an array of two elements.
+            -the first element is the state variable.
+            -the second element is the function that updates the state vaiable.
+            -it is used to manage the state of the component.
+
+hooks:
+     -it is a function that returns jsx code.
+     ex: useState(), useEffect(), useRef(), useContext()
+-----------------------------------------------------------------------------------------
+props:(properties)
+     -props is an object that contains data that the component needs.
+     -it is used to pass data from parent component to child component.
+     -we can access the props in the component with the help of props.
+----------------------------------------------------------------------------------------------------------------
+                                     state                         properties
+                          -------------------------------------------------------------------------------------
+definition                          used to update                    used to pass/transfer(parent->child)
+mutability                          mutable(can be modified)          immutable (can't be  modified)
+managed                             by itself                         by parent component
+access                              by itself                         by parent component
+                                    this.state/usestate               props/{name,age,}
+ --------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+                                           
+     
+
 day 32
------------
+----------------
 Link:
      -
